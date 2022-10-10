@@ -14,7 +14,7 @@ public class MultiThreadedSingleton {
         this.name = name;
     }
 
-    public static MultiThreadedSingleton getInstance(String name) {
+    public static MultiThreadedSingleton getInstance(final String name) {
         log.info("MultiThreadedSingleton getInstance method entering");
         if (instance == null) {
             log.info("MultiThreadedSingleton instance is not initialized ❌");

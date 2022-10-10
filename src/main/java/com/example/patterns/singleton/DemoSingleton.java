@@ -3,7 +3,7 @@ package com.example.patterns.singleton;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public class ExampleSingleton {
+public class DemoSingleton {
     public static void main(String[] args) {
         log.info("=============Singleton naive example start=============");
         SingletonNaive singleton = SingletonNaive.getInstance("Mark");

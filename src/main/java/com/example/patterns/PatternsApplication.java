@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @Slf4j
 public class PatternsApplication {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         SpringApplication.run(PatternsApplication.class, args);
     }
 

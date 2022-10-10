@@ -9,11 +9,11 @@ public class SingletonNaive {
     @Getter
     private final String name;
 
-    private SingletonNaive(String name){
+    private SingletonNaive(String name) {
         this.name = name;
     }
 
-    public static SingletonNaive getInstance(String name){
+    public static SingletonNaive getInstance(final String name) {
         log.info("SingletonNaive getInstance method entering");
         if (instance == null) {
             log.warn("Haven't singleton instance. Create instance");
